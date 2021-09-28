@@ -1,0 +1,14 @@
+package com.abhi;
+
+public class one {
+	public static void main(String[] args) {
+
+short c = 2;
+System.out.println(calc(c,2));
+	}
+	
+	public static int calc(int a, int b) {
+		return a*b;
+	}
+
+}
