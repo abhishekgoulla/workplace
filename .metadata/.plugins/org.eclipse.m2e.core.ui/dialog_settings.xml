@@ -67,12 +67,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.lumen.assignment"/>
 			<item value="com.cts"/>
 		</list>
 		<list key="name">
+			<item value="jdbc"/>
 			<item value="spring"/>
 		</list>
 		<list key="artifactId">
+			<item value="jdbc"/>
 			<item value="spring"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -82,6 +85,19 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.hello"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="world"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
